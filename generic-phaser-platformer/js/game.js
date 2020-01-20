@@ -1,7 +1,7 @@
 (function () {
 
     var game = new Phaser.Game(384, 256,
-        Phaser.AUTO,
+        Phaser.CANVAS,
         'game',
         null,  //{preload: preload, create: create, update: update}
         false, //transparent
