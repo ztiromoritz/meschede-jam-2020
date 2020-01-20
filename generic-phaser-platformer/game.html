@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Phaser Test</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+    <link href='./assets/fonts/press_start_2p/PressStart2P.css' rel='stylesheet' type='text/css'>
+    <link href='./css/game.css' rel='stylesheet' type='text/css'>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+</head>
+<body>
+<div  class="wrapper">
+    <div class="controlsLeft">
+        <div class="A"></div>
+        <div class="B"></div>
+        <div class="C"></div>
+    </div>
+    <div id="playground">
+        <div id="talk">Text is here <br> <a href="">Bla</a></div>
+        <div id="game"></div>
+        <div id="menu">
+            <div class="button" id="start">Start</div>
+            <div class="button">Einstellungen</div>
+            <div class="button">Credits</div>
+        </div>
+    </div>
+    <div class="controlsRight">
+        <div class="D"></div>
+        <div class="E"></div>
+        <div class="F"></div>
+    </div>
+</div>
+
+
+<script src="./lib/phaser.js"></script>
+<script src="./lib/garfunkel.js"></script>
+
+<script type="text/javascript" src="./bower_components/lodash/lodash.min.js"></script>
+<script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./lib/tweepee-0.2.js"></script>
+
+<script type="text/javascript" src="./js/util/game.util.js"></script>
+<script type="text/javascript" src="./js/util/game.fullscreen.js"></script>
+<script type="text/javascript" src="./js/util/game.talk.js"></script>
+<script type="text/javascript" src="./js/util/game.pad.js"></script>
+<script type="text/javascript" src="./js/util/game.eventZone.js"></script>
+<script type="text/javascript" src="./js/util/LabelButton.js"></script>
+<script type="text/javascript" src="./js/util/menu.js"></script>
+
+<script type="text/javascript" src="./js/sprites/Player.js"></script>
+<script type="text/javascript" src="./js/sprites/Enemy1.js"></script>
+<script type="text/javascript" src="./js/sprites/NPC.js"></script>
+<script type="text/javascript" src="./js/sprites/Checkpoint.js"></script>
+
+<script type="text/javascript" src="./js/states/PreloadState.js"></script>
+<script type="text/javascript" src="./js/states/MenuState.js"></script>
+<script type="text/javascript" src="./js/states/PlayState.js"></script>
+<script type="text/javascript" src="./js/game.js"></script>
+
+</body>
+</html>

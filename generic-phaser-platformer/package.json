@@ -1,0 +1,11 @@
+{
+  "name": "hello",
+  "main": "editor.html",
+  "window": {
+    "title": "Phaser Test",
+    "icon": "./assets/favicon.png",
+    "toolbar": false,
+    "frame": true,
+    "fullscreen": true
+  }
+}

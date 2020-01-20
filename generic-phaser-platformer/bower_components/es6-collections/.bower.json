@@ -1,0 +1,15 @@
+{
+  "name": "es6-collections",
+  "homepage": "https://github.com/WebReflection/es6-collections",
+  "version": "0.5.5",
+  "_release": "0.5.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.5",
+    "commit": "ea6b6e0107ab9af1934d2bedec7b927995f09c86"
+  },
+  "_source": "git://github.com/WebReflection/es6-collections.git",
+  "_target": "~0.5.5",
+  "_originalSource": "es6-collections",
+  "_direct": true
+}
